@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.databasespring.DatabaseSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.614 s <<< FAILURE! - in com.example.databasespring.DatabaseSpringApplicationTests
+com.example.databasespring.DatabaseSpringApplicationTests  Time elapsed: 0.612 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.databasespring.AccessingDataMysqlApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\LENOVO\database-spring\target\classes\com\example\databasespring\AccessingDataMysqlApplication.class], Generic bean: class [com.example.databasespring.DatabaseSpringApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\LENOVO\database-spring\target\classes\com\example\databasespring\DatabaseSpringApplication.class]]
+
